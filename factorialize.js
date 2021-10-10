@@ -13,6 +13,7 @@ const factorialize = (num) => {
   //the result must start with 1 and not 0 otherwise the result will always be 0. 
   let result = 1;
 
+  //create a for loop to increment through all the nums below num and num use the index as a multiplier
   for(let i = 1; i <= num; i++){
     result = result * i;
   }
