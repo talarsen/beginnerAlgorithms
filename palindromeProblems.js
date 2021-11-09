@@ -20,7 +20,7 @@ const isPalindrome = (str) => {
     return true;
 }
 
-console.log(isPalindrome("Racecar"))
+console.log(isPalindrome("Dragon"))
 //order of operations for palindromes
 //1. convert string to array array.split("")
 //2. use a for of loop to iterate through the characters

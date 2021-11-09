@@ -11,6 +11,7 @@ let fizzBuzz = (n) => {
   let stringArray = []
    for(let i = 1; i <= n; i++){
   //conditions to check if there is a fizz, buzz or fizzbuzz
+  //if index in array is divisible by 3 or 5 push "FizzBuzz"
     if((i % 3 === 0) && (i % 5 === 0) ){
       stringArray.push("FizzBuzz")
     } else if(i % 3 === 0){
@@ -27,3 +28,15 @@ let fizzBuzz = (n) => {
 
 
 console.log(fizzBuzz(35));
+
+
+function largestWOrd(str) {
+  //take out punc for string
+  let strNoPunc = str.replace()
+  //split the string to get indivdual words
+  //create 2 variables to store the length of the word and the word itself
+  //each time the length is greater than stored length, replace the lonest word
+  //find the length of each string
+  //look a the length and return the longest string
+  //return the longest word in the string(str)
+}
